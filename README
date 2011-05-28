@@ -1,0 +1,10 @@
+Back in 2006, Siemens AF51 was sold with a pre-installed MIDP puzzler
+called Wappo 2. For some inexplicable reason, one of my relatives was
+absolutely enchanted by it. Eventually, he has run into a problem he
+couldn't solve no matter how much he tried. I was fairly incredulous a
+game so polished-looking would actually be unbeatable, but I wasn't
+really in the mood for overheating my brains over the puzzle itself.
+So I just wrote a solver in Perl. Thankfully, the search tree wasn't
+particularly large.
+
+Turned out, the problem DID have a solution.
