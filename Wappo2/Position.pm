@@ -231,13 +231,9 @@ sub solve
     if ( ! $this -> go ( $arg ) )
     {
 
-#$this->print_pos();
-#<STDIN>;
       return ( 0 ) ;
 
     }
-#$this->print_pos();
-#<STDIN>;
 
     if ( $this -> check ( ) == 1 )
     {
@@ -289,7 +285,7 @@ sub go
 
   $this -> { solution } .= $mov [ $arg ] ;
 
-print($this->{solution}."\n");
+  print($this->{solution}."\n");
 
   if    ( $arg == 1 )
   {
@@ -1154,14 +1150,6 @@ sub check2
     return ( 0 ) ;
 
   }
-
-#  if ( ( $this -> xy ( 'red' ) eq $this -> xy ( 'blue' ) ) &&
-#       ( $this -> xy ( 'red' ) ne '00'                   )  )
-#  {
-#    $this -> { violet } = { % { $this -> { red } } } ;
-#    $this -> { red    } = { x => 0 , y => 0        } ;
-#    $this -> { blue   } = { x => 0 , y => 0        } ;
-#  }
 
   return ( -1 ) ;
 

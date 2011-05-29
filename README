@@ -8,3 +8,12 @@ So I just wrote a solver in Perl. Thankfully, the search tree wasn't
 particularly large.
 
 Turned out, the problem DID have a solution.
+
+Unfortunately, I don't quite remember the number of the problem this
+is trying to solve, I believe it was seventy-something.
+
+Run by:
+
+   perl wappo2_solver.pl
+
+The last line is the solution (the sequence of cursor keys to press).

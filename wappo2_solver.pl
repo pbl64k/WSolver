@@ -1,4 +1,3 @@
-#!perl
 
 use strict           ;
 
@@ -53,7 +52,5 @@ my $pos =
 my $start = Wappo2::Position -> new ( $pos ) ;
 
 $start -> solve ( 0 ) ;
-
-<STDIN>;
 
 1
